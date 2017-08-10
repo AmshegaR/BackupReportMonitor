@@ -1,0 +1,5 @@
+invoke-MSSQL -sqlConnectionString "Data Source=b-maint\SQLEXPRESS;User ID='bmaint';password='~Bynet-OS~';Initial Catalog=BackupMon" -sqlCommandText "select * from tempMailBackupJob_tbl" -sqlCommandType "select"
+
+
+
+invoke-MSSQL -sqlConnectionString "Data Source=b-maint\SQLEXPRESS;User ID='bmaint';password='~Bynet-OS~';Initial Catalog=BackupMon" "Insert Into tempMailBackupJob_tbl VALUES ('kahskjahs234','Vasys','Wrningerr','22:43:06','22:43:06','501 GB','34.4 GB','3.6 GB','0:43:54','kjsdbfshfdhskldh ksdhfkshdifh ksdhfishd')" -sqlCommandType "insert"
